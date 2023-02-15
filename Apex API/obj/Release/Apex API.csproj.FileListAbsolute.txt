@@ -1,0 +1,19 @@
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\Apex API.exe.config
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\Apex API.exe
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\Apex API.pdb
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\Spectre.Console.dll
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\System.Buffers.dll
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\System.Memory.dll
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\System.Numerics.Vectors.dll
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\Spectre.Console.xml
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\System.Buffers.xml
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\System.Memory.xml
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\System.Numerics.Vectors.xml
+D:\Robins sachen\DEV\C#\Apex API\Apex API\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+D:\Robins sachen\DEV\C#\Apex API\Apex API\obj\Release\Apex API.csproj.AssemblyReference.cache
+D:\Robins sachen\DEV\C#\Apex API\Apex API\obj\Release\Apex API.csproj.SuggestedBindingRedirects.cache
+D:\Robins sachen\DEV\C#\Apex API\Apex API\obj\Release\Apex API.csproj.CoreCompileInputs.cache
+D:\Robins sachen\DEV\C#\Apex API\Apex API\obj\Release\Apex API.csproj.CopyComplete
+D:\Robins sachen\DEV\C#\Apex API\Apex API\obj\Release\Apex API.exe
+D:\Robins sachen\DEV\C#\Apex API\Apex API\obj\Release\Apex API.pdb
