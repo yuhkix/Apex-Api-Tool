@@ -1,12 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+using System.Net;
 
 namespace Apex_API.Cmds
 {
-    internal class PlayerStats
+    public class PlayerStats
     {
+        public static void GetPlayerStats()
+        {
+            Console.Clear();
+            var url = $"https://api.mozambiquehe.re/bridge?auth={Properties.Settings.Default.APIkey}&player={Properties.Settings.Default.PlayerName}&platform={Properties.Settings.Default.Platform}";
+            var request = WebRequest.Create(url);
+            request.Method = "GET";
+            var webResponse = request.GetResponse();
+            var webStream = webResponse.GetResponseStream();
+
+            var reader = new StreamReader(webStream);
+            var data = reader.ReadToEnd();
+
+            Console.WriteLine(data);
+        }
     }
 }

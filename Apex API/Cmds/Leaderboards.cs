@@ -9,10 +9,7 @@ namespace Apex_API.Cmds
         public static void Leaderboard()
         {
             Console.Clear();
-            string APIKEY = "bb53fe83c4efc7e105a1d1876ee1d501";
-            string Legend = "Wraith";
-            string Platform = "PC";
-            var url = $"https://api.mozambiquehe.re/leaderboard?auth={APIKEY}&legend={Legend}&platform={Platform}";
+            var url = $"https://api.mozambiquehe.re/leaderboard?auth={Properties.Settings.Default.APIkey}&legend={Properties.Settings.Default.Legend}&platform={Properties.Settings.Default.Platform}";
             var request = WebRequest.Create(url);
             request.Method = "GET";
             var webResponse = request.GetResponse();
