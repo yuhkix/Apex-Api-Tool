@@ -10,7 +10,7 @@ namespace Apex_API.Cmds
         {
             Console.Clear();
             string APIKEY = "bb53fe83c4efc7e105a1d1876ee1d501";
-            var url = "https://api.mozambiquehe.re/store?auth=" + APIKEY + "";
+            var url = $"https://api.mozambiquehe.re/store?auth={APIKEY}";
             var request = WebRequest.Create(url);
             request.Method = "GET";
             var webResponse = request.GetResponse();

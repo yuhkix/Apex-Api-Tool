@@ -18,7 +18,9 @@ namespace Apex_API
                 .AddChoices(new[] {
                     "Predator", "CraftingRotation",
                     "StoreRotation", "News",
-                    "MapRotation",
+                    "MapRotation", "ServerStatus",
+                    "Origin", "NameToUID",
+                    "Leaderboards",
                 }));
 
             switch (option)
@@ -38,6 +40,18 @@ namespace Apex_API
                 case "MapRotation":
                     MapRotation.MapRot();
                     break;
+                case "ServerStatus":
+                    ServerStatus.SStatus();
+                    break;
+                /*case "Origin":
+
+                    break;
+                case "NameToUID":
+
+                    break;
+                case "Leaderboards":
+                    Leaderboards.Leaderboard();
+                    break;*/
             }
             Console.ReadLine();
         }
